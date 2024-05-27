@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <input type="color" id="input-color" />
+        <div class="select">
+            <select class="custom-select" id="custom-select">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-color-btn">Get color scheme</button>
+        </div>
+    </main>
+    <section class="color-scheme-container" id="color-scheme-container">
+        <div>
+            <div class="color-schemes" id="scheme-0"></div>
+            <p class="hex-values" id="hex-0">hex value</p>
+        </div>
+        <div>
+            <div class="color-schemes" id="scheme-1"></div>
+            <p class="hex-values" id="hex-1">hex value</p>
+        </div>
+        <div>
+            <div class="color-schemes" id="scheme-2"></div>
+            <p class="hex-values" id="hex-2">hex value</p>
+        </div>
+        <div>
+            <div class="color-schemes" id="scheme-3"></div>
+            <p class="hex-values" id="hex-3">hex value</p>
+        </div>
+        <div>
+            <div class="color-schemes" id="scheme-4"></div>
+            <p class="hex-values" id="hex-4">hex value</p>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
